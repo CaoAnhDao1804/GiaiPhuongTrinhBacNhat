@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="Giải phương trình bậc nhất"
+        android:textColor="@color/colorWhite"
+        android:textSize="18sp"
+        android:gravity="center"
+        >
+
+    </TextView>
+    <TableRow>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Nhập số a:"
+            />
+        <EditText
+            android:id="@+id/editSoA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Nhập số b:"
+            />
+        <EditText
+            android:id="@+id/editSoB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            />
+    </TableRow>
+    <Button
+        android:id="@+id/btnKetQua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kết quả"
+        android:textColor="@color/colorWhite"
+        android:background="@color/colorRed"
+        />
+
+</TableLayout>
